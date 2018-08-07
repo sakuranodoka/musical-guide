@@ -10,6 +10,7 @@ class Main : AppCompatActivity() {
     }
 
     private val ex = 3
+    private val ez = 5
 
     private val mOnNavigationItemSelectedListener = BottomNavigationView.OnNavigationItemSelectedListener { item ->
         when (item.itemId) {
