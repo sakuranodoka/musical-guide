@@ -7,8 +7,9 @@ import kotlinx.android.synthetic.main.activity_main.*
 
 class Main : AppCompatActivity() {
     init {
-
     }
+
+    private val ex = 3
 
     private val mOnNavigationItemSelectedListener = BottomNavigationView.OnNavigationItemSelectedListener { item ->
         when (item.itemId) {
